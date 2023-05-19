@@ -1,6 +1,6 @@
 # huumun-challenge
 
-Challenge for a Senior Front-end Dev at huumun!
+Challenge for a Senior Front-end Dev at huumun! This project uses the awesome [SWAPI](https://swapi.dev/) as data source. Film and character images are from the [WookieePedia](https://starwars.fandom.com/wiki/Main_Page).
 
 > by Cristian D. Mocho
 

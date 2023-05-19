@@ -15,7 +15,7 @@ defineProps({
 
 function getAvatarImageById(avatarUrl) {
   const id = getIdFromUrl(avatarUrl);
-  return `/assets/characters/${id}.jpg`;
+  return `assets/characters/${id}.jpg`;
 }
 </script>
 

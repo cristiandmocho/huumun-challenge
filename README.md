@@ -1,6 +1,12 @@
 # huumun-challenge
 
-Challenge for a Senior Front-end Dev at huuman
+Challenge for a Senior Front-end Dev at huumun!
+
+> by Cristian D. Mocho
+
+## This project is HOSTED!
+
+You can see a copy of this project running at https://ezsystems.net/huumun-challenge/!
 
 ## Recommended IDE Setup
 
@@ -13,17 +19,17 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-npm install
+yarn install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn run dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-npm run build
+yarn run build
 ```

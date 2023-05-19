@@ -24,7 +24,7 @@ function formatDate(dateStr) {
 
 function getFilmImageById(filmUrl) {
   const id = getIdFromUrl(filmUrl);
-  return `/assets/films/${id}.jpg`;
+  return `assets/films/${id}.jpg`;
 }
 </script>
 

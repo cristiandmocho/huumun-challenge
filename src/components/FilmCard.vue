@@ -12,6 +12,8 @@
 </template>
 
 <script setup>
+import { getIdFromUrl } from '../services/utilities.js';
+
 defineProps({
   film: { title: '', director: '', producer: '', release_date: '', opening_crawl: '', url: '' },
 });
@@ -21,11 +23,7 @@ function formatDate(dateStr) {
 }
 
 function getFilmImageById(filmUrl) {
-  const id = filmUrl
-    .split('/')
-    .filter(s => s != '')
-    .pop();
-
+  const id = getIdFromUrl(filmUrl);
   return `/assets/films/${id}.jpg`;
 }
 </script>
@@ -67,6 +65,7 @@ function getFilmImageById(filmUrl) {
       opacity: 0.7;
       overflow-y: auto;
       min-height: 125px;
+      max-height: 160px;
     }
 
     span.info {
